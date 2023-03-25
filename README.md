@@ -1,2 +1,3 @@
-# Sell Drugs To NPC
-An optimized way of selling drugs to NPC.
+# np_selltonpc
+
+Sell drugs to a NPC

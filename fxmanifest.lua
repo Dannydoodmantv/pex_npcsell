@@ -1,15 +1,19 @@
-fx_version 'adamant'
+fx_version 'cerulean'
+lua54'yes'
 game 'gta5'
-description 'Optimized sell drugs to NPC'
-version '1.0.4'
+
+shared_scripts {
+    '@ox_lib/init.lua',
+    '@es_extended/imports.lua'
+}
+
+version '1.0.0'
 
 server_scripts {
-    '@mysql-async/lib/MySQL.lua',
-    'server/server.lua',
-    'config.lua'
+    '@oxmysql/lib/MySQL.lua',
+    'server/server.lua'
 }
 
 client_scripts {
-    'client/client.lua',
-    'config.lua'
+    'client/client.lua'
 }
